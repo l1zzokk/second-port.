@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+  body{
+    background-image: radial-gradient( #856cea 0%, #1b1e23 100%);
+}
+
+  header{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 80px;
+    width: 100%;
+}
+
+.container > h1 {
+    width: 100%;
+    font-size: 72px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    color: var(--secondary);
+}
+
+h1 > span{
+    font-size: 170%;
+    font-style: italic ;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: -39rem;
+    z-index: 0;
+}
+
+
+:root{
+    --primary: #856cea;
+    --secondary:  #15141d;
+}
+
+body::-webkit-scrollbar {
+    width: 9px;
+}
+  
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+  
+body::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background: var(--secondary);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+    gap: 3rem;
+}
+
+.header-underline{
+    height: 7px;
+    width: 100%;
+    background: radial-gradient(var(--primary), #020202  100%);
+}
+
+nav > a {
+    font-size: 19px;
+    line-height: 140%;
+    font-weight: 600;
+    text-decoration: none;
+    color: #0f021d;
+}
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    width: 100%;
+    height: 100%;
+    grid-gap: 10px;
+  }
+  
+  .grid-item2 {
+    background-image: url(8z.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 1/2;
+    grid-row: 2/5;
+  }
+  
+  .grid-item3 {
+    background-image: url(3z.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 1/5;
+    grid-row: 5/5;
+  }
+  
+  .grid-item4 {
+    background-image: url(4z.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 2/4;
+    grid-row: 2/5;
+  }
+  
+  .grid-item5 {
+    background-image: url(5z.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 4/6;
+    grid-row: 2;
+  }
+  
+  .grid-item6 {
+    background-image: url(6z.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 4/5;
+    grid-row: 3/5;
+  }
+  
+  .grid-item7 {
+    background-image: url(7z.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 5/6;
+    grid-row: 3/6;
+  }
+  
+  .grid-item8 {
+    background-image: url(2z.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 6/8;
+    grid-row: 2/6;
+  }
+
+  .content-center > img{
+    position: absolute;
+    margin-bottom: -49rm;
+    margin-top: -40rem;
+    z-index: -1;
+
+}
